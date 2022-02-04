@@ -45,15 +45,17 @@ ui <- fluidPage(
 # Define server logic required to draw air quality plots
 server <- function(input, output) {
     
-    output$pmPlot <- renderPlot({
-        
-        # Create a color scale that highlights the neighborhood selected by user
-        # https://stackoverflow.com/questions/6919025/how-to-assign-colors-to-categorical-variables-in-ggplot2-that-have-stable-mappin
+    # Create a color scale that highlights the neighborhood selected by user
+    # https://stackoverflow.com/questions/6919025/how-to-assign-colors-to-categorical-variables-in-ggplot2-that-have-stable-mappin
+    colScale <- reactive({
         myColors <- c('#9C2E35', rep('#D3D3D3', 33)) # selected is red, all else gray
         names(myColors) <- c(input$geo, purrr::discard(levels(df$geo_place_name),.p = ~stringr::str_detect(.x,input$geo)))
         # https://stackoverflow.com/questions/48467884/remove-an-element-of-a-list-by-name]
-        colScale <- scale_colour_manual(name = "geo_place_name",values = myColors)
-
+        scale_colour_manual(name = "geo_place_name",values = myColors)
+    })
+    
+    # Draw the air quality plots
+    output$pmPlot <- renderPlot({
         # Subset the particulate matter data
         pm <- subset(df, name == 'Fine Particulate Matter (PM2.5)')
         
@@ -61,20 +63,20 @@ server <- function(input, output) {
         ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
             geom_line()+
             geom_point()+
-            colScale+
+            colScale()+
             theme(legend.position = 'none')
     })
     
     output$no2Plot <- renderPlot({
         
-        # Subset the particulate matter data
+        # Subset the nitrogen dioxide data
         no2 <- subset(df, name == 'Nitrogen Dioxide (NO2)')
         
-        # Dtaw line plot of particulate matter
+        # Draw line plot of nitrogen dioxide
         ggplot(data=no2, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
             geom_line()+
             geom_point()+
-            colScale+
+            colScale()+
             theme(legend.position = 'none')
     })
 }
