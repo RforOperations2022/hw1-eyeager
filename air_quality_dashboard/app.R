@@ -80,49 +80,108 @@ server <- function(input, output) {
         scale_colour_manual(name = "geo_place_name",values = myColors)
     })
     
-    # Make a list of the plot types selected by user
-    #plotList <- reactive({input$plots})
+    # Create sorted subsets of the data for the heat maps
+    sorted_pm <- reactive({
+        geo_order <- 
+            c(input$geo, purrr::discard(levels(df$geo_place_name),.p = ~stringr::str_detect(.x,input$geo)))
+        sorted_geo <- factor(df$geo_place_name, levels = geo_order)
+        sorted_df <- cbind(df, sorted_geo)
+        subset(sorted_df, name == 'Fine Particulate Matter (PM2.5)')
+    })
+    
+    sorted_no2 <- reactive({
+        geo_order <- 
+            c(input$geo, purrr::discard(levels(df$geo_place_name),.p = ~stringr::str_detect(.x,input$geo)))
+        sorted_geo <- factor(df$geo_place_name, levels = geo_order)
+        sorted_df <- cbind(df, sorted_geo)
+        subset(sorted_df, name == 'Nitrogen Dioxide (NO2)')
+    })
+    
+    # Create sorted subsets of the data for bar charts
+    sorted_pm_2018 <- reactive({
+        geo_order <- 
+            c(input$geo, purrr::discard(levels(df$geo_place_name),.p = ~stringr::str_detect(.x,input$geo)))
+        sorted_geo <- factor(df$geo_place_name, levels = geo_order)
+        sorted_df <- cbind(df, sorted_geo)
+        sorted_pm <- subset(sorted_df, name == 'Fine Particulate Matter (PM2.5)')
+        subset(sorted_pm, start_year == 2018)
+    })
+    
+    sorted_no2_2018 <- reactive({
+        geo_order <- 
+            c(input$geo, purrr::discard(levels(df$geo_place_name),.p = ~stringr::str_detect(.x,input$geo)))
+        sorted_geo <- factor(df$geo_place_name, levels = geo_order)
+        sorted_df <- cbind(df, sorted_geo)
+        sorted_no2 <- subset(sorted_df, name == 'Nitrogen Dioxide (NO2)')
+        subset(sorted_no2, start_year == 2018)
+    })
     
     # Draw the air quality plots
 
     output$plots <- renderPlot({
-        
         if(input$plots == 'Line') {
-        
-            # Draw line plot of particulate matter
-            line_pm <- ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
-                geom_line()+
-                geom_point()+
-                colScale()+
-                theme(legend.position = 'none')
             
-            # Draw line plot of nitrogen dioxide
-            line_no2 <- ggplot(data=no2, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
-                geom_line()+
-                geom_point()+
-                colScale()+
-                theme(legend.position = 'none')
+            # Make line plot of particulate matter
+            line_pm <- ggplot(data=pm, aes(x=start_date, y=data_value, 
+                group=geo_place_name, color=geo_place_name)) +
+                geom_line() +
+                colScale() +
+                theme(legend.position = 'none', axis.title.x = element_blank()) +
+                ggtitle('Fine particulate matter') +
+                ylab('Annual average, mcg per cubic meter')
             
-            grid.arrange(line_pm, line_no2, ncol=2)
+            # Make line plot of nitrogen dioxide
+            line_no2 <- ggplot(data=no2, aes(x=start_date, y=data_value, 
+                group=geo_place_name, color=geo_place_name)) +
+                geom_line() +
+                colScale() +
+                theme(legend.position = 'none', axis.title.x = element_blank()) +
+                ggtitle('Nitrogen dioxide') + 
+                ylab('Annual average, ppb') 
+            
+            # Draw plots side-by-side
+            grid.arrange(line_pm, line_no2, ncol = 2, bottom = 'Year')
         }
         
         else if (input$plots=='Heat Map') {
-            # Draw heat map of particulate matter
-            heat_pm <- ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
             
-            # Draw heat map of nitrogen dioxide
-            heat_no2 <- ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+            # df$geo_place_name <- factor(df$geo_place_name, levels = neighborhood_order())
+            # print(levels(df$geo_place_name))
             
-            grid.arrange(heat_pm, heat_no2, ncol=2)
+            # Make heat map of particulate matter
+            heat_pm <- ggplot(sorted_pm(), aes(x=start_year, y=fct_rev(sorted_geo), 
+                fill=data_value)) + 
+                geom_tile() + 
+                theme(legend.title = element_blank(), axis.title = element_blank()) +
+                ggtitle('Fine particulate matter\n(Annual avg, mcg per cubic meter)') +
+                scale_fill_gradient(low = '#fee0d2', high = '#de2d26', guide = 'colorbar')
+            
+            # Make heat map of nitrogen dioxide
+            heat_no2 <- ggplot(sorted_no2(), aes(x=start_year, y=fct_rev(sorted_geo), 
+                fill=data_value)) + 
+                geom_tile() + 
+                theme(legend.title = element_blank(), axis.title = element_blank()) +
+                ggtitle('Nitrogen dioxide\n(Annual avg, ppb)') + 
+                scale_fill_gradient(low = '#fee0d2', high = '#de2d26', guide = 'colorbar')
+            
+            # Draw plots side-by-side
+            grid.arrange(heat_pm, heat_no2, ncol = 2, bottom = 'Year')
         }
         
         else if (input$plots == 'Bar') {
-            #Draw bar plot for particulate matter in 2018
-            bar_pm <- ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+            
+            # Make bar plot for particulate matter in 2018
+            bar_pm <- ggplot(sorted_pm_2018(), aes(x=fct_rev(sorted_geo), y=data_value)) + 
+                geom_bar(stat='identity') +
+                ggtitle('Fine particulate matter') +
+                labs(y = 'Mcg per cubic meter, 2018', x = '') +
                 coord_flip()
             
             #Draw bar plot for nitrogen dioxide in 2018
-            bar_no2 <- ggplot(no2_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+            bar_no2 <- ggplot(sorted_no2_2018(), aes(x=fct_rev(sorted_geo), y=data_value)) + 
+                geom_bar(stat='identity') +
+                ggtitle('Nitrogen dioxide') +
+                labs(y = 'Ppb, 2018', x = '') +
                 coord_flip()
             
             grid.arrange(bar_pm, bar_no2, ncol=2)
