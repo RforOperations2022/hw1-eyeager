@@ -77,65 +77,53 @@ server <- function(input, output) {
     
     # Draw the air quality plots
 
-    output$pmLine <- renderPlot({
+    output$line <- renderPlot({
         
         if('Line' %in% input$plots) {
         
             # Draw line plot of particulate matter
-            ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
+            line_pm <- ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
                 geom_line()+
                 geom_point()+
                 colScale()+
                 theme(legend.position = 'none')
-        }
-    })
-    
-    output$no2Line <- renderPlot({
-        
-        if('Line' %in% input$plots) {
-        
-            # Draw line plot of nitrogen dioxide
-            ggplot(data=no2, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
-                geom_line()+
-                geom_point()+
-                colScale()+
-                theme(legend.position = 'none')
-        }
-    })
-    
-    output$pmHeat <- renderPlot({
-        
-        if('Heat Map' %in% input$plots) {
-            # Draw heat map of particulate matter
-            ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
-        }
-    })
-    
-    output$no2Heat <- renderPlot({
-        
-        if('Heat Map' %in% input$plots) {
-            # Draw heat map of particulate matter
-            ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
-        }
-    })
-    
-    output$pmBar <- renderPlot({
-        
-        if('Bar' %in% input$plots) {
-        
-            #Draw bar plot
-            ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
-                coord_flip()
-        }
-    })
-    
-    output$no2Bar <- renderPlot({
-        
-        if('Bar' %in% input$plots) {
             
-            #Draw bar plot
-            ggplot(no2_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+            # Draw line plot of nitrogen dioxide
+            line_no2 <- ggplot(data=no2, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
+                geom_line()+
+                geom_point()+
+                colScale()+
+                theme(legend.position = 'none')
+            
+            grid.arrange(line_pm, line_no2, ncol=2)
+        }
+    })
+    
+    output$heat <- renderPlot({
+        
+        if('Heat Map' %in% input$plots) {
+            # Draw heat map of particulate matter
+            heat_pm <- ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+            
+            # Draw heat map of nitrogen dioxide
+            heat_no2 <- ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+            
+            grid.arrange(heat_pm, heat_no2, ncol=2)
+        }
+    })
+    
+    output$bar <- renderPlot({
+        
+        if('Bar' %in% input$plots) {
+            #Draw bar plot for particulate matter in 2018
+            bar_pm <- ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
                 coord_flip()
+            
+            #Draw bar plot for nitrogen dioxide in 2018
+            bar_no2 <- ggplot(no2_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+                coord_flip()
+            
+            grid.arrange(bar_pm, bar_no2, ncol=2)
         }
     })
     
