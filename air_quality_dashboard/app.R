@@ -52,7 +52,10 @@ ui <- fluidPage(
            # Show data table ---------------------------------------------
            checkboxInput(inputId = "show_data",
                          label = "Show data table:",
-                         value = TRUE)
+                         value = TRUE),
+           
+           # Data download
+            downloadButton(outputId = "downloadData", label = "Download")
         ),
 
         # Show a plots of the fine particulate matter and nitrogen dioxide 
@@ -141,6 +144,15 @@ server <- function(input, output) {
             DT::datatable(data = df[, 1:7], 
                           options = list(pageLength = 10), 
                           rownames = FALSE)
+        }
+    )
+    
+    output$downloadData <- downloadHandler(
+        filename = function() {
+            paste("data-", Sys.Date(), ".csv", sep="")
+        },
+        content = function(file) {
+            write.csv(data, file)
         }
     )
     
