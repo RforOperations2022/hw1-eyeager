@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+# Config file for querying NYC Open Data using nyc_open_to_csv.py
+
+# Specify the dataset using the API Endpoint (format is 'resource/<dataset>.json')
+dataset: 'c3uy-2p5r'
+
+# Specify SoSQL query
+query: 
+    "?$select=name,measure,measure_info,geo_place_name,time_period,start_date,\
+    data_value&$where=time_period%20like%20%27%25Annual%20Average%25%27\
+    &geo_type_name=UHF34"
+
+# Choose a name for the CSV  
+filename: 'air_quality'
