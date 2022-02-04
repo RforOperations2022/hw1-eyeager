@@ -47,7 +47,12 @@ ui <- fluidPage(
            checkboxGroupInput(inputId = "plots",
                                label = "Select plot type:",
                                choices = c("Line", "Bar", "Heat Map"),
-                               selected = "Heat Map")
+                               selected = "Heat Map"),
+           
+           # Show data table ---------------------------------------------
+           checkboxInput(inputId = "show_data",
+                         label = "Show data table:",
+                         value = TRUE)
         ),
 
         # Show a plots of the fine particulate matter and nitrogen dioxide 
@@ -55,7 +60,10 @@ ui <- fluidPage(
         mainPanel(
            plotOutput("line"),
            plotOutput("heat"),
-           plotOutput("bar")
+           plotOutput("bar"),
+           
+           # Show data table ---------------------------------------------
+           DT::dataTableOutput(outputId = "air_quality_table")
         )
     )
 )
@@ -126,6 +134,15 @@ server <- function(input, output) {
             grid.arrange(bar_pm, bar_no2, ncol=2)
         }
     })
+    
+    # Print data table if checked -------------------------------------
+    output$air_quality_table <- DT::renderDataTable(
+        if(input$show_data){
+            DT::datatable(data = df[, 1:7], 
+                          options = list(pageLength = 10), 
+                          rownames = FALSE)
+        }
+    )
     
 }
 
