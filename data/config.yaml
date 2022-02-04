@@ -12,4 +12,4 @@ query:
     &geo_type_name=UHF34"
 
 # Choose a name for the CSV  
-filename: 'air_quality'
+filename: 'air_quality.csv'

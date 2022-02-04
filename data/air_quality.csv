@@ -1,0 +1,681 @@
+,name,measure,measure_info,geo_place_name,time_period,start_date,data_value
+0,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2018,2018-01-01T00:00:00.000,7.7
+1,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2009,2008-12-01T00:00:00.000,11.64
+2,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2010,2009-12-01T00:00:00.000,10.78
+3,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2013,2012-12-01T00:00:00.000,9.7
+4,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2014,2013-12-01T00:00:00.000,9.8
+5,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2017,2017-01-01T00:00:00.000,8.2
+6,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2012,2011-12-01T00:00:00.000,10.15
+7,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2015,2015-01-01T00:00:00.000,9.63
+8,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2016,2015-12-31T00:00:00.000,8.21
+9,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,South Bronx,Annual Average 2011,2010-12-01T00:00:00.000,11.36
+10,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2016,2015-12-31T00:00:00.000,6.78
+11,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2010,2009-12-01T00:00:00.000,8.81
+12,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2017,2017-01-01T00:00:00.000,6.76
+13,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2018,2018-01-01T00:00:00.000,6.35
+14,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2009,2008-12-01T00:00:00.000,9.8
+15,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2011,2010-12-01T00:00:00.000,9.42
+16,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2012,2011-12-01T00:00:00.000,8.37
+17,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2013,2012-12-01T00:00:00.000,7.97
+18,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2014,2013-12-01T00:00:00.000,8.38
+19,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southern SI,Annual Average 2015,2015-01-01T00:00:00.000,7.56
+20,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2009,2008-12-01T00:00:00.000,9.84
+21,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2015,2015-01-01T00:00:00.000,8.0
+22,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2012,2011-12-01T00:00:00.000,8.31
+23,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2016,2015-12-31T00:00:00.000,6.97
+24,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2017,2017-01-01T00:00:00.000,6.94
+25,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2018,2018-01-01T00:00:00.000,6.51
+26,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2013,2012-12-01T00:00:00.000,8.03
+27,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2014,2013-12-01T00:00:00.000,8.5
+28,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2010,2009-12-01T00:00:00.000,8.77
+29,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northern SI,Annual Average 2011,2010-12-01T00:00:00.000,9.49
+30,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2016,2015-12-31T00:00:00.000,6.94
+31,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2010,2009-12-01T00:00:00.000,9.09
+32,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2011,2010-12-01T00:00:00.000,9.72
+33,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2017,2017-01-01T00:00:00.000,7.04
+34,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2014,2013-12-01T00:00:00.000,8.36
+35,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2012,2011-12-01T00:00:00.000,8.58
+36,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2013,2012-12-01T00:00:00.000,8.13
+37,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2015,2015-01-01T00:00:00.000,8.23
+38,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2018,2018-01-01T00:00:00.000,6.51
+39,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2018,2018-01-01T00:00:00.000,8.39
+40,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bayside Little Neck-Fresh Meadows,Annual Average 2009,2008-12-01T00:00:00.000,9.83
+41,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2010,2009-12-01T00:00:00.000,11.28
+42,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2016,2015-12-31T00:00:00.000,9.18
+43,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2015,2015-01-01T00:00:00.000,10.21
+44,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2017,2017-01-01T00:00:00.000,8.68
+45,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2011,2010-12-01T00:00:00.000,11.71
+46,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2013,2012-12-01T00:00:00.000,10.44
+47,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2014,2013-12-01T00:00:00.000,10.79
+48,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2009,2008-12-01T00:00:00.000,12.39
+49,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Union Square-Lower Manhattan,Annual Average 2012,2011-12-01T00:00:00.000,10.66
+50,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2013,2012-12-01T00:00:00.000,11.87
+51,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2016,2015-12-31T00:00:00.000,10.05
+52,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2017,2017-01-01T00:00:00.000,9.61
+53,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2009,2008-12-01T00:00:00.000,13.74
+54,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2010,2009-12-01T00:00:00.000,12.66
+55,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2014,2013-12-01T00:00:00.000,12.08
+56,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2018,2018-01-01T00:00:00.000,9.58
+57,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2011,2010-12-01T00:00:00.000,12.85
+58,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2015,2015-01-01T00:00:00.000,11.13
+59,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2016,2015-12-31T00:00:00.000,9.86
+60,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2017,2017-01-01T00:00:00.000,9.54
+61,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Chelsea-Village,Annual Average 2012,2011-12-01T00:00:00.000,11.94
+62,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2014,2013-12-01T00:00:00.000,12.13
+63,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2013,2012-12-01T00:00:00.000,12.09
+64,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2018,2018-01-01T00:00:00.000,9.44
+65,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2010,2009-12-01T00:00:00.000,12.96
+66,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2011,2010-12-01T00:00:00.000,12.96
+67,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2009,2008-12-01T00:00:00.000,13.89
+68,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2012,2011-12-01T00:00:00.000,12.14
+69,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper East Side-Gramercy,Annual Average 2015,2015-01-01T00:00:00.000,10.91
+70,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2009,2008-12-01T00:00:00.000,8.75
+71,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2012,2011-12-01T00:00:00.000,7.36
+72,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2015,2015-01-01T00:00:00.000,7.16
+73,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2010,2009-12-01T00:00:00.000,7.99
+74,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2011,2010-12-01T00:00:00.000,8.44
+75,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2017,2017-01-01T00:00:00.000,6.32
+76,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2013,2012-12-01T00:00:00.000,7.61
+77,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2014,2013-12-01T00:00:00.000,7.69
+78,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2016,2015-12-31T00:00:00.000,5.98
+79,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Rockaways,Annual Average 2018,2018-01-01T00:00:00.000,6.06
+80,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2009,2008-12-01T00:00:00.000,9.35
+81,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2012,2011-12-01T00:00:00.000,8.04
+82,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2013,2012-12-01T00:00:00.000,7.85
+83,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2015,2015-01-01T00:00:00.000,7.9
+84,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2010,2009-12-01T00:00:00.000,8.65
+85,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2011,2010-12-01T00:00:00.000,9.17
+86,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2016,2015-12-31T00:00:00.000,6.51
+87,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2017,2017-01-01T00:00:00.000,6.75
+88,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2018,2018-01-01T00:00:00.000,6.42
+89,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southeast Queens,Annual Average 2014,2013-12-01T00:00:00.000,8.02
+90,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2017,2017-01-01T00:00:00.000,7.08
+91,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2011,2010-12-01T00:00:00.000,9.57
+92,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2012,2011-12-01T00:00:00.000,8.48
+93,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2013,2012-12-01T00:00:00.000,8.27
+94,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2015,2015-01-01T00:00:00.000,8.2
+95,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2016,2015-12-31T00:00:00.000,6.99
+96,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2009,2008-12-01T00:00:00.000,9.95
+97,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2014,2013-12-01T00:00:00.000,8.46
+98,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2018,2018-01-01T00:00:00.000,6.69
+99,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Jamaica,Annual Average 2010,2009-12-01T00:00:00.000,9.25
+100,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2016,2015-12-31T00:00:00.000,7.02
+101,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2013,2012-12-01T00:00:00.000,8.14
+102,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2012,2011-12-01T00:00:00.000,8.32
+103,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2015,2015-01-01T00:00:00.000,8.05
+104,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2017,2017-01-01T00:00:00.000,6.94
+105,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2010,2009-12-01T00:00:00.000,9.19
+106,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2011,2010-12-01T00:00:00.000,9.43
+107,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2014,2013-12-01T00:00:00.000,8.39
+108,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2018,2018-01-01T00:00:00.000,6.56
+109,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Southwest Queens,Annual Average 2009,2008-12-01T00:00:00.000,9.96
+110,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2015,2015-01-01T00:00:00.000,8.51
+111,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2016,2015-12-31T00:00:00.000,7.56
+112,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2010,2009-12-01T00:00:00.000,9.52
+113,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2011,2010-12-01T00:00:00.000,9.95
+114,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2009,2008-12-01T00:00:00.000,10.44
+115,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2013,2012-12-01T00:00:00.000,8.51
+116,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2014,2013-12-01T00:00:00.000,8.85
+117,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2017,2017-01-01T00:00:00.000,7.32
+118,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2018,2018-01-01T00:00:00.000,6.99
+119,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Ridgewood - Forest Hills,Annual Average 2012,2011-12-01T00:00:00.000,8.83
+120,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2014,2013-12-01T00:00:00.000,8.64
+121,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2015,2015-01-01T00:00:00.000,8.45
+122,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2012,2011-12-01T00:00:00.000,8.9
+123,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2017,2017-01-01T00:00:00.000,7.27
+124,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2018,2018-01-01T00:00:00.000,6.9
+125,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2010,2009-12-01T00:00:00.000,9.33
+126,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2013,2012-12-01T00:00:00.000,8.39
+127,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2016,2015-12-31T00:00:00.000,7.22
+128,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2009,2008-12-01T00:00:00.000,10.16
+129,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Flushing - Clearview,Annual Average 2011,2010-12-01T00:00:00.000,10.05
+130,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2014,2013-12-01T00:00:00.000,9.47
+131,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2018,2018-01-01T00:00:00.000,7.57
+132,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2015,2015-01-01T00:00:00.000,9.17
+133,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2016,2015-12-31T00:00:00.000,8.14
+134,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2017,2017-01-01T00:00:00.000,7.93
+135,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2009,2008-12-01T00:00:00.000,10.99
+136,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2010,2009-12-01T00:00:00.000,9.89
+137,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2012,2011-12-01T00:00:00.000,9.46
+138,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2011,2010-12-01T00:00:00.000,10.6
+139,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,West Queens,Annual Average 2013,2012-12-01T00:00:00.000,9.13
+140,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2017,2017-01-01T00:00:00.000,8.42
+141,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2011,2010-12-01T00:00:00.000,11.02
+142,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2012,2011-12-01T00:00:00.000,9.84
+143,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2013,2012-12-01T00:00:00.000,9.6
+144,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2016,2015-12-31T00:00:00.000,8.65
+145,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2018,2018-01-01T00:00:00.000,8.16
+146,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2009,2008-12-01T00:00:00.000,11.4
+147,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2010,2009-12-01T00:00:00.000,10.05
+148,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2014,2013-12-01T00:00:00.000,9.98
+149,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Long Island City - Astoria,Annual Average 2015,2015-01-01T00:00:00.000,9.78
+150,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2014,2013-12-01T00:00:00.000,10.42
+151,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2015,2015-01-01T00:00:00.000,9.78
+152,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2013,2012-12-01T00:00:00.000,10.35
+153,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2012,2011-12-01T00:00:00.000,10.46
+154,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2017,2017-01-01T00:00:00.000,8.33
+155,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2018,2018-01-01T00:00:00.000,8.16
+156,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2016,2015-12-31T00:00:00.000,8.49
+157,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2009,2008-12-01T00:00:00.000,12.18
+158,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2010,2009-12-01T00:00:00.000,11.01
+159,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Upper West Side,Annual Average 2011,2010-12-01T00:00:00.000,11.49
+160,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2017,2017-01-01T00:00:00.000,8.11
+161,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2009,2008-12-01T00:00:00.000,11.55
+162,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2012,2011-12-01T00:00:00.000,9.98
+163,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2014,2013-12-01T00:00:00.000,9.84
+164,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2016,2015-12-31T00:00:00.000,8.19
+165,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2015,2015-01-01T00:00:00.000,9.51
+166,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2010,2009-12-01T00:00:00.000,10.41
+167,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2013,2012-12-01T00:00:00.000,9.73
+168,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2018,2018-01-01T00:00:00.000,7.39
+169,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Harlem,Annual Average 2011,2010-12-01T00:00:00.000,11.12
+170,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2012,2011-12-01T00:00:00.000,9.99
+171,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2016,2015-12-31T00:00:00.000,7.95
+172,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2018,2018-01-01T00:00:00.000,7.53
+173,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2009,2008-12-01T00:00:00.000,11.6
+174,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2011,2010-12-01T00:00:00.000,11.13
+175,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2014,2013-12-01T00:00:00.000,9.73
+176,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2010,2009-12-01T00:00:00.000,10.62
+177,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2013,2012-12-01T00:00:00.000,9.7
+178,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2015,2015-01-01T00:00:00.000,9.36
+179,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Central Harlem - Morningside Heights,Annual Average 2017,2017-01-01T00:00:00.000,7.93
+180,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2018,2018-01-01T00:00:00.000,7.32
+181,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2010,2009-12-01T00:00:00.000,10.71
+182,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2011,2010-12-01T00:00:00.000,11.12
+183,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2016,2015-12-31T00:00:00.000,7.81
+184,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2012,2011-12-01T00:00:00.000,9.89
+185,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2014,2013-12-01T00:00:00.000,9.49
+186,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2009,2008-12-01T00:00:00.000,11.55
+187,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2017,2017-01-01T00:00:00.000,7.79
+188,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2013,2012-12-01T00:00:00.000,9.48
+189,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Washington Heights,Annual Average 2015,2015-01-01T00:00:00.000,9.36
+190,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2015,2015-01-01T00:00:00.000,9.61
+191,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2016,2015-12-31T00:00:00.000,8.67
+192,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2011,2010-12-01T00:00:00.000,10.88
+193,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2014,2013-12-01T00:00:00.000,9.84
+194,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2012,2011-12-01T00:00:00.000,9.7
+195,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2013,2012-12-01T00:00:00.000,9.36
+196,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2018,2018-01-01T00:00:00.000,8.11
+197,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2017,2017-01-01T00:00:00.000,8.22
+198,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2009,2008-12-01T00:00:00.000,11.36
+199,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Williamsburg - Bushwick,Annual Average 2010,2009-12-01T00:00:00.000,10.33
+200,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2017,2017-01-01T00:00:00.000,6.83
+201,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2012,2011-12-01T00:00:00.000,8.3
+202,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2014,2013-12-01T00:00:00.000,8.37
+203,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2015,2015-01-01T00:00:00.000,7.72
+204,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2016,2015-12-31T00:00:00.000,6.75
+205,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2010,2009-12-01T00:00:00.000,8.89
+206,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2011,2010-12-01T00:00:00.000,9.44
+207,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2018,2018-01-01T00:00:00.000,6.55
+208,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2009,2008-12-01T00:00:00.000,9.55
+209,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Coney Island - Sheepshead Bay,Annual Average 2013,2012-12-01T00:00:00.000,8.11
+210,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2016,2015-12-31T00:00:00.000,7.11
+211,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2009,2008-12-01T00:00:00.000,9.91
+212,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2012,2011-12-01T00:00:00.000,8.6
+213,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2013,2012-12-01T00:00:00.000,8.24
+214,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2014,2013-12-01T00:00:00.000,8.62
+215,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2015,2015-01-01T00:00:00.000,8.13
+216,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2010,2009-12-01T00:00:00.000,9.18
+217,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2011,2010-12-01T00:00:00.000,9.78
+218,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2017,2017-01-01T00:00:00.000,7.06
+219,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bensonhurst - Bay Ridge,Annual Average 2018,2018-01-01T00:00:00.000,6.67
+220,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2013,2012-12-01T00:00:00.000,8.18
+221,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2017,2017-01-01T00:00:00.000,7.02
+222,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2010,2009-12-01T00:00:00.000,9.12
+223,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2011,2010-12-01T00:00:00.000,9.55
+224,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2016,2015-12-31T00:00:00.000,7.12
+225,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2018,2018-01-01T00:00:00.000,6.7
+226,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2014,2013-12-01T00:00:00.000,8.48
+227,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2015,2015-01-01T00:00:00.000,8.1
+228,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2009,2008-12-01T00:00:00.000,9.85
+229,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Canarsie - Flatlands,Annual Average 2012,2011-12-01T00:00:00.000,8.37
+230,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2016,2015-12-31T00:00:00.000,7.64
+231,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2009,2008-12-01T00:00:00.000,10.47
+232,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2010,2009-12-01T00:00:00.000,9.8
+233,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2013,2012-12-01T00:00:00.000,8.6
+234,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2015,2015-01-01T00:00:00.000,8.59
+235,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2018,2018-01-01T00:00:00.000,7.04
+236,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2011,2010-12-01T00:00:00.000,10.15
+237,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2014,2013-12-01T00:00:00.000,8.97
+238,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2017,2017-01-01T00:00:00.000,7.36
+239,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East Flatbush - Flatbush,Annual Average 2012,2011-12-01T00:00:00.000,8.98
+240,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2016,2015-12-31T00:00:00.000,7.45
+241,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2011,2010-12-01T00:00:00.000,10.07
+242,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2013,2012-12-01T00:00:00.000,8.49
+243,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2014,2013-12-01T00:00:00.000,8.87
+244,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2017,2017-01-01T00:00:00.000,7.27
+245,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2018,2018-01-01T00:00:00.000,6.99
+246,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2010,2009-12-01T00:00:00.000,9.61
+247,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2015,2015-01-01T00:00:00.000,8.44
+248,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2009,2008-12-01T00:00:00.000,10.27
+249,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Borough Park,Annual Average 2012,2011-12-01T00:00:00.000,8.89
+250,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2010,2009-12-01T00:00:00.000,10.21
+251,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2009,2008-12-01T00:00:00.000,11.04
+252,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2018,2018-01-01T00:00:00.000,7.72
+253,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2013,2012-12-01T00:00:00.000,9.12
+254,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2014,2013-12-01T00:00:00.000,9.63
+255,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2015,2015-01-01T00:00:00.000,9.45
+256,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2016,2015-12-31T00:00:00.000,8.4
+257,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2017,2017-01-01T00:00:00.000,8.09
+258,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2011,2010-12-01T00:00:00.000,10.84
+259,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Sunset Park,Annual Average 2012,2011-12-01T00:00:00.000,9.59
+260,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2017,2017-01-01T00:00:00.000,7.52
+261,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2009,2008-12-01T00:00:00.000,10.6
+262,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2011,2010-12-01T00:00:00.000,10.09
+263,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2018,2018-01-01T00:00:00.000,7.06
+264,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2010,2009-12-01T00:00:00.000,9.79
+265,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2013,2012-12-01T00:00:00.000,8.69
+266,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2012,2011-12-01T00:00:00.000,8.94
+267,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2014,2013-12-01T00:00:00.000,9.04
+268,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2015,2015-01-01T00:00:00.000,8.72
+269,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,East New York,Annual Average 2016,2015-12-31T00:00:00.000,7.8
+270,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2017,2017-01-01T00:00:00.000,7.53
+271,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2012,2011-12-01T00:00:00.000,9.13
+272,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2013,2012-12-01T00:00:00.000,8.75
+273,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2010,2009-12-01T00:00:00.000,9.93
+274,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2014,2013-12-01T00:00:00.000,9.16
+275,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2015,2015-01-01T00:00:00.000,8.87
+276,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2016,2015-12-31T00:00:00.000,7.94
+277,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2018,2018-01-01T00:00:00.000,7.27
+278,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2011,2010-12-01T00:00:00.000,10.29
+279,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Bedford Stuyvesant - Crown Heights,Annual Average 2009,2008-12-01T00:00:00.000,10.75
+280,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2016,2015-12-31T00:00:00.000,8.86
+281,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2009,2008-12-01T00:00:00.000,11.5
+282,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2017,2017-01-01T00:00:00.000,8.35
+283,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2018,2018-01-01T00:00:00.000,7.85
+284,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2014,2013-12-01T00:00:00.000,9.99
+285,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2010,2009-12-01T00:00:00.000,10.49
+286,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2013,2012-12-01T00:00:00.000,9.46
+287,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2015,2015-01-01T00:00:00.000,9.89
+288,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2011,2010-12-01T00:00:00.000,11.14
+289,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Downtown - Heights - Slope,Annual Average 2012,2011-12-01T00:00:00.000,9.9
+290,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2018,2018-01-01T00:00:00.000,8.72
+291,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2013,2012-12-01T00:00:00.000,10.0
+292,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2012,2011-12-01T00:00:00.000,10.27
+293,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2015,2015-01-01T00:00:00.000,10.49
+294,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2017,2017-01-01T00:00:00.000,8.98
+295,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2009,2008-12-01T00:00:00.000,11.93
+296,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2010,2009-12-01T00:00:00.000,10.57
+297,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2016,2015-12-31T00:00:00.000,9.46
+298,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2011,2010-12-01T00:00:00.000,11.51
+299,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Greenpoint,Annual Average 2014,2013-12-01T00:00:00.000,10.54
+300,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2017,2017-01-01T00:00:00.000,7.52
+301,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2018,2018-01-01T00:00:00.000,7.0
+302,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2010,2009-12-01T00:00:00.000,9.68
+303,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2014,2013-12-01T00:00:00.000,8.97
+304,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2009,2008-12-01T00:00:00.000,10.59
+305,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2011,2010-12-01T00:00:00.000,10.5
+306,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2015,2015-01-01T00:00:00.000,8.93
+307,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2012,2011-12-01T00:00:00.000,9.23
+308,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2013,2012-12-01T00:00:00.000,8.74
+309,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Pelham - Throgs Neck,Annual Average 2016,2015-12-31T00:00:00.000,7.5
+310,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2018,2018-01-01T00:00:00.000,7.19
+311,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2014,2013-12-01T00:00:00.000,9.19
+312,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2015,2015-01-01T00:00:00.000,9.14
+313,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2009,2008-12-01T00:00:00.000,11.1
+314,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2013,2012-12-01T00:00:00.000,9.06
+315,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2010,2009-12-01T00:00:00.000,10.26
+316,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2011,2010-12-01T00:00:00.000,10.77
+317,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2017,2017-01-01T00:00:00.000,7.52
+318,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2012,2011-12-01T00:00:00.000,9.47
+319,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Fordham - Bronx Pk,Annual Average 2016,2015-12-31T00:00:00.000,7.57
+320,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2012,2011-12-01T00:00:00.000,9.11
+321,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2015,2015-01-01T00:00:00.000,9.13
+322,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2017,2017-01-01T00:00:00.000,7.46
+323,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2010,2009-12-01T00:00:00.000,9.65
+324,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2014,2013-12-01T00:00:00.000,9.0
+325,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2018,2018-01-01T00:00:00.000,6.99
+326,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2013,2012-12-01T00:00:00.000,8.73
+327,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2016,2015-12-31T00:00:00.000,7.55
+328,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2009,2008-12-01T00:00:00.000,10.68
+329,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Northeast Bronx,Annual Average 2011,2010-12-01T00:00:00.000,10.48
+330,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2016,2015-12-31T00:00:00.000,7.5
+331,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2014,2013-12-01T00:00:00.000,9.0
+332,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2013,2012-12-01T00:00:00.000,8.88
+333,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2017,2017-01-01T00:00:00.000,7.41
+334,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2012,2011-12-01T00:00:00.000,9.27
+335,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2009,2008-12-01T00:00:00.000,11.03
+336,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2015,2015-01-01T00:00:00.000,9.17
+337,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2018,2018-01-01T00:00:00.000,6.95
+338,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2010,2009-12-01T00:00:00.000,10.09
+339,Fine Particulate Matter (PM2.5),Mean,mcg per cubic meter,Kingsbridge - Riverdale,Annual Average 2011,2010-12-01T00:00:00.000,10.65
+340,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2017,2017-01-01T00:00:00.000,20.97
+341,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2018,2018-01-01T00:00:00.000,20.25
+342,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2012,2011-12-01T00:00:00.000,23.17
+343,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2014,2013-12-01T00:00:00.000,21.76
+344,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2015,2015-01-01T00:00:00.000,21.57
+345,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2016,2015-12-31T00:00:00.000,20.38
+346,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2011,2010-12-01T00:00:00.000,25.46
+347,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2009,2008-12-01T00:00:00.000,27.72
+348,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2010,2009-12-01T00:00:00.000,25.08
+349,Nitrogen Dioxide (NO2),Mean,ppb,South Bronx,Annual Average 2013,2012-12-01T00:00:00.000,22.49
+350,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2018,2018-01-01T00:00:00.000,11.98
+351,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2015,2015-01-01T00:00:00.000,12.76
+352,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2016,2015-12-31T00:00:00.000,12.48
+353,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2013,2012-12-01T00:00:00.000,12.68
+354,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2009,2008-12-01T00:00:00.000,15.74
+355,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2010,2009-12-01T00:00:00.000,14.14
+356,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2014,2013-12-01T00:00:00.000,13.32
+357,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2017,2017-01-01T00:00:00.000,12.5
+358,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2011,2010-12-01T00:00:00.000,14.86
+359,Nitrogen Dioxide (NO2),Mean,ppb,Southern SI,Annual Average 2012,2011-12-01T00:00:00.000,13.52
+360,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2013,2012-12-01T00:00:00.000,16.44
+361,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2014,2013-12-01T00:00:00.000,16.23
+362,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2018,2018-01-01T00:00:00.000,15.13
+363,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2009,2008-12-01T00:00:00.000,19.44
+364,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2011,2010-12-01T00:00:00.000,19.28
+365,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2015,2015-01-01T00:00:00.000,16.0
+366,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2016,2015-12-31T00:00:00.000,15.81
+367,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2017,2017-01-01T00:00:00.000,15.45
+368,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2010,2009-12-01T00:00:00.000,18.22
+369,Nitrogen Dioxide (NO2),Mean,ppb,Northern SI,Annual Average 2012,2011-12-01T00:00:00.000,16.97
+370,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2016,2015-12-31T00:00:00.000,17.1
+371,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2017,2017-01-01T00:00:00.000,17.2
+372,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2010,2009-12-01T00:00:00.000,20.2
+373,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2011,2010-12-01T00:00:00.000,20.53
+374,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2013,2012-12-01T00:00:00.000,17.46
+375,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2014,2013-12-01T00:00:00.000,18.17
+376,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2018,2018-01-01T00:00:00.000,16.4
+377,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2009,2008-12-01T00:00:00.000,21.14
+378,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2015,2015-01-01T00:00:00.000,17.89
+379,Nitrogen Dioxide (NO2),Mean,ppb,Bayside Little Neck-Fresh Meadows,Annual Average 2012,2011-12-01T00:00:00.000,18.39
+380,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2014,2013-12-01T00:00:00.000,27.21
+381,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2018,2018-01-01T00:00:00.000,23.63
+382,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2012,2011-12-01T00:00:00.000,29.12
+383,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2013,2012-12-01T00:00:00.000,28.29
+384,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2017,2017-01-01T00:00:00.000,24.71
+385,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2010,2009-12-01T00:00:00.000,31.09
+386,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2011,2010-12-01T00:00:00.000,31.41
+387,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2015,2015-01-01T00:00:00.000,25.4
+388,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2009,2008-12-01T00:00:00.000,33.96
+389,Nitrogen Dioxide (NO2),Mean,ppb,Union Square-Lower Manhattan,Annual Average 2016,2015-12-31T00:00:00.000,25.01
+390,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2009,2008-12-01T00:00:00.000,38.16
+391,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2010,2009-12-01T00:00:00.000,34.61
+392,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2012,2011-12-01T00:00:00.000,32.87
+393,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2016,2015-12-31T00:00:00.000,27.55
+394,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2013,2012-12-01T00:00:00.000,31.96
+395,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2017,2017-01-01T00:00:00.000,27.51
+396,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2018,2018-01-01T00:00:00.000,26.64
+397,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2011,2010-12-01T00:00:00.000,34.96
+398,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2014,2013-12-01T00:00:00.000,30.59
+399,Nitrogen Dioxide (NO2),Mean,ppb,Chelsea-Village,Annual Average 2015,2015-01-01T00:00:00.000,28.2
+400,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2012,2011-12-01T00:00:00.000,33.15
+401,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2018,2018-01-01T00:00:00.000,25.89
+402,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2014,2013-12-01T00:00:00.000,30.96
+403,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2011,2010-12-01T00:00:00.000,35.11
+404,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2016,2015-12-31T00:00:00.000,27.31
+405,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2017,2017-01-01T00:00:00.000,27.51
+406,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2009,2008-12-01T00:00:00.000,38.52
+407,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2013,2012-12-01T00:00:00.000,32.1
+408,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2010,2009-12-01T00:00:00.000,34.84
+409,Nitrogen Dioxide (NO2),Mean,ppb,Upper East Side-Gramercy,Annual Average 2015,2015-01-01T00:00:00.000,28.28
+410,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2009,2008-12-01T00:00:00.000,14.68
+411,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2010,2009-12-01T00:00:00.000,14.07
+412,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2018,2018-01-01T00:00:00.000,10.52
+413,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2013,2012-12-01T00:00:00.000,12.67
+414,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2016,2015-12-31T00:00:00.000,11.72
+415,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2012,2011-12-01T00:00:00.000,13.12
+416,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2014,2013-12-01T00:00:00.000,13.77
+417,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2015,2015-01-01T00:00:00.000,13.55
+418,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2017,2017-01-01T00:00:00.000,12.66
+419,Nitrogen Dioxide (NO2),Mean,ppb,Rockaways,Annual Average 2011,2010-12-01T00:00:00.000,14.27
+420,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2018,2018-01-01T00:00:00.000,16.22
+421,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2014,2013-12-01T00:00:00.000,17.28
+422,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2015,2015-01-01T00:00:00.000,17.16
+423,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2016,2015-12-31T00:00:00.000,16.16
+424,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2011,2010-12-01T00:00:00.000,19.29
+425,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2012,2011-12-01T00:00:00.000,17.34
+426,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2017,2017-01-01T00:00:00.000,16.44
+427,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2010,2009-12-01T00:00:00.000,19.1
+428,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2013,2012-12-01T00:00:00.000,16.8
+429,Nitrogen Dioxide (NO2),Mean,ppb,Southeast Queens,Annual Average 2009,2008-12-01T00:00:00.000,19.89
+430,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2016,2015-12-31T00:00:00.000,17.56
+431,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2017,2017-01-01T00:00:00.000,17.69
+432,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2010,2009-12-01T00:00:00.000,21.22
+433,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2011,2010-12-01T00:00:00.000,21.55
+434,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2014,2013-12-01T00:00:00.000,18.82
+435,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2018,2018-01-01T00:00:00.000,17.55
+436,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2009,2008-12-01T00:00:00.000,22.29
+437,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2012,2011-12-01T00:00:00.000,19.35
+438,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2013,2012-12-01T00:00:00.000,18.96
+439,Nitrogen Dioxide (NO2),Mean,ppb,Jamaica,Annual Average 2015,2015-01-01T00:00:00.000,18.42
+440,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2016,2015-12-31T00:00:00.000,17.8
+441,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2017,2017-01-01T00:00:00.000,17.95
+442,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2018,2018-01-01T00:00:00.000,17.19
+443,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2011,2010-12-01T00:00:00.000,22.21
+444,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2013,2012-12-01T00:00:00.000,19.65
+445,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2009,2008-12-01T00:00:00.000,22.93
+446,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2010,2009-12-01T00:00:00.000,21.71
+447,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2014,2013-12-01T00:00:00.000,19.19
+448,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2015,2015-01-01T00:00:00.000,18.68
+449,Nitrogen Dioxide (NO2),Mean,ppb,Southwest Queens,Annual Average 2012,2011-12-01T00:00:00.000,20.01
+450,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2016,2015-12-31T00:00:00.000,18.65
+451,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2018,2018-01-01T00:00:00.000,17.94
+452,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2009,2008-12-01T00:00:00.000,24.06
+453,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2017,2017-01-01T00:00:00.000,18.65
+454,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2011,2010-12-01T00:00:00.000,23.26
+455,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2014,2013-12-01T00:00:00.000,20.0
+456,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2010,2009-12-01T00:00:00.000,22.61
+457,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2012,2011-12-01T00:00:00.000,20.99
+458,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2013,2012-12-01T00:00:00.000,20.3
+459,Nitrogen Dioxide (NO2),Mean,ppb,Ridgewood - Forest Hills,Annual Average 2015,2015-01-01T00:00:00.000,19.25
+460,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2017,2017-01-01T00:00:00.000,18.5
+461,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2009,2008-12-01T00:00:00.000,22.68
+462,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2011,2010-12-01T00:00:00.000,21.94
+463,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2014,2013-12-01T00:00:00.000,19.45
+464,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2015,2015-01-01T00:00:00.000,19.09
+465,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2012,2011-12-01T00:00:00.000,19.83
+466,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2016,2015-12-31T00:00:00.000,18.23
+467,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2018,2018-01-01T00:00:00.000,17.63
+468,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2010,2009-12-01T00:00:00.000,21.47
+469,Nitrogen Dioxide (NO2),Mean,ppb,Flushing - Clearview,Annual Average 2013,2012-12-01T00:00:00.000,18.71
+470,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2010,2009-12-01T00:00:00.000,24.18
+471,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2017,2017-01-01T00:00:00.000,20.56
+472,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2018,2018-01-01T00:00:00.000,19.9
+473,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2009,2008-12-01T00:00:00.000,25.81
+474,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2014,2013-12-01T00:00:00.000,21.87
+475,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2015,2015-01-01T00:00:00.000,21.11
+476,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2012,2011-12-01T00:00:00.000,22.78
+477,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2016,2015-12-31T00:00:00.000,20.53
+478,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2011,2010-12-01T00:00:00.000,24.96
+479,Nitrogen Dioxide (NO2),Mean,ppb,West Queens,Annual Average 2013,2012-12-01T00:00:00.000,21.89
+480,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2017,2017-01-01T00:00:00.000,20.99
+481,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2014,2013-12-01T00:00:00.000,22.07
+482,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2016,2015-12-31T00:00:00.000,20.91
+483,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2010,2009-12-01T00:00:00.000,24.32
+484,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2011,2010-12-01T00:00:00.000,25.24
+485,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2009,2008-12-01T00:00:00.000,26.29
+486,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2012,2011-12-01T00:00:00.000,23.14
+487,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2013,2012-12-01T00:00:00.000,22.3
+488,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2015,2015-01-01T00:00:00.000,21.39
+489,Nitrogen Dioxide (NO2),Mean,ppb,Long Island City - Astoria,Annual Average 2018,2018-01-01T00:00:00.000,20.89
+490,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2013,2012-12-01T00:00:00.000,26.5
+491,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2017,2017-01-01T00:00:00.000,23.39
+492,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2018,2018-01-01T00:00:00.000,22.22
+493,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2009,2008-12-01T00:00:00.000,31.95
+494,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2011,2010-12-01T00:00:00.000,29.3
+495,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2016,2015-12-31T00:00:00.000,23.15
+496,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2010,2009-12-01T00:00:00.000,28.66
+497,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2012,2011-12-01T00:00:00.000,27.08
+498,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2014,2013-12-01T00:00:00.000,25.1
+499,Nitrogen Dioxide (NO2),Mean,ppb,Upper West Side,Annual Average 2015,2015-01-01T00:00:00.000,23.86
+500,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2016,2015-12-31T00:00:00.000,22.19
+501,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2018,2018-01-01T00:00:00.000,20.91
+502,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2013,2012-12-01T00:00:00.000,24.75
+503,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2014,2013-12-01T00:00:00.000,23.76
+504,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2010,2009-12-01T00:00:00.000,27.07
+505,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2009,2008-12-01T00:00:00.000,29.9
+506,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2011,2010-12-01T00:00:00.000,27.65
+507,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2012,2011-12-01T00:00:00.000,25.32
+508,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2015,2015-01-01T00:00:00.000,22.99
+509,Nitrogen Dioxide (NO2),Mean,ppb,East Harlem,Annual Average 2017,2017-01-01T00:00:00.000,22.41
+510,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2014,2013-12-01T00:00:00.000,23.86
+511,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2016,2015-12-31T00:00:00.000,22.19
+512,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2018,2018-01-01T00:00:00.000,21.66
+513,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2011,2010-12-01T00:00:00.000,28.23
+514,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2012,2011-12-01T00:00:00.000,25.76
+515,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2009,2008-12-01T00:00:00.000,31.06
+516,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2017,2017-01-01T00:00:00.000,22.64
+517,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2013,2012-12-01T00:00:00.000,25.36
+518,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2015,2015-01-01T00:00:00.000,23.15
+519,Nitrogen Dioxide (NO2),Mean,ppb,Central Harlem - Morningside Heights,Annual Average 2010,2009-12-01T00:00:00.000,27.83
+520,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2012,2011-12-01T00:00:00.000,23.15
+521,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2017,2017-01-01T00:00:00.000,20.56
+522,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2016,2015-12-31T00:00:00.000,19.85
+523,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2011,2010-12-01T00:00:00.000,25.56
+524,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2018,2018-01-01T00:00:00.000,19.73
+525,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2014,2013-12-01T00:00:00.000,21.12
+526,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2013,2012-12-01T00:00:00.000,22.79
+527,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2009,2008-12-01T00:00:00.000,28.5
+528,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2010,2009-12-01T00:00:00.000,25.21
+529,Nitrogen Dioxide (NO2),Mean,ppb,Washington Heights,Annual Average 2015,2015-01-01T00:00:00.000,21.14
+530,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2009,2008-12-01T00:00:00.000,27.13
+531,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2017,2017-01-01T00:00:00.000,20.69
+532,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2015,2015-01-01T00:00:00.000,21.27
+533,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2018,2018-01-01T00:00:00.000,20.95
+534,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2010,2009-12-01T00:00:00.000,25.31
+535,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2013,2012-12-01T00:00:00.000,22.72
+536,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2014,2013-12-01T00:00:00.000,22.2
+537,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2016,2015-12-31T00:00:00.000,20.82
+538,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2011,2010-12-01T00:00:00.000,25.75
+539,Nitrogen Dioxide (NO2),Mean,ppb,Williamsburg - Bushwick,Annual Average 2012,2011-12-01T00:00:00.000,23.43
+540,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2014,2013-12-01T00:00:00.000,17.63
+541,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2015,2015-01-01T00:00:00.000,17.08
+542,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2011,2010-12-01T00:00:00.000,18.98
+543,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2010,2009-12-01T00:00:00.000,19.01
+544,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2013,2012-12-01T00:00:00.000,16.36
+545,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2016,2015-12-31T00:00:00.000,15.62
+546,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2018,2018-01-01T00:00:00.000,14.35
+547,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2009,2008-12-01T00:00:00.000,19.9
+548,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2017,2017-01-01T00:00:00.000,16.08
+549,Nitrogen Dioxide (NO2),Mean,ppb,Coney Island - Sheepshead Bay,Annual Average 2012,2011-12-01T00:00:00.000,17.21
+550,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2010,2009-12-01T00:00:00.000,21.48
+551,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2015,2015-01-01T00:00:00.000,18.62
+552,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2017,2017-01-01T00:00:00.000,17.69
+553,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2012,2011-12-01T00:00:00.000,19.27
+554,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2013,2012-12-01T00:00:00.000,18.58
+555,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2014,2013-12-01T00:00:00.000,19.1
+556,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2009,2008-12-01T00:00:00.000,22.54
+557,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2011,2010-12-01T00:00:00.000,21.62
+558,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2016,2015-12-31T00:00:00.000,17.78
+559,Nitrogen Dioxide (NO2),Mean,ppb,Bensonhurst - Bay Ridge,Annual Average 2018,2018-01-01T00:00:00.000,16.86
+560,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2016,2015-12-31T00:00:00.000,15.3
+561,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2017,2017-01-01T00:00:00.000,15.64
+562,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2010,2009-12-01T00:00:00.000,19.1
+563,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2011,2010-12-01T00:00:00.000,19.21
+564,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2013,2012-12-01T00:00:00.000,16.65
+565,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2014,2013-12-01T00:00:00.000,17.0
+566,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2015,2015-01-01T00:00:00.000,16.52
+567,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2012,2011-12-01T00:00:00.000,17.22
+568,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2018,2018-01-01T00:00:00.000,14.48
+569,Nitrogen Dioxide (NO2),Mean,ppb,Canarsie - Flatlands,Annual Average 2009,2008-12-01T00:00:00.000,20.22
+570,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2016,2015-12-31T00:00:00.000,18.86
+571,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2009,2008-12-01T00:00:00.000,25.14
+572,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2014,2013-12-01T00:00:00.000,20.47
+573,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2010,2009-12-01T00:00:00.000,23.64
+574,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2011,2010-12-01T00:00:00.000,23.56
+575,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2013,2012-12-01T00:00:00.000,20.57
+576,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2015,2015-01-01T00:00:00.000,19.72
+577,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2017,2017-01-01T00:00:00.000,18.83
+578,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2018,2018-01-01T00:00:00.000,17.9
+579,Nitrogen Dioxide (NO2),Mean,ppb,East Flatbush - Flatbush,Annual Average 2012,2011-12-01T00:00:00.000,21.16
+580,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2009,2008-12-01T00:00:00.000,24.79
+581,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2014,2013-12-01T00:00:00.000,20.41
+582,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2010,2009-12-01T00:00:00.000,23.43
+583,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2016,2015-12-31T00:00:00.000,18.87
+584,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2018,2018-01-01T00:00:00.000,18.11
+585,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2017,2017-01-01T00:00:00.000,18.81
+586,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2011,2010-12-01T00:00:00.000,23.32
+587,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2012,2011-12-01T00:00:00.000,20.87
+588,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2013,2012-12-01T00:00:00.000,20.23
+589,Nitrogen Dioxide (NO2),Mean,ppb,Borough Park,Annual Average 2015,2015-01-01T00:00:00.000,19.74
+590,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2012,2011-12-01T00:00:00.000,21.09
+591,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2015,2015-01-01T00:00:00.000,19.71
+592,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2016,2015-12-31T00:00:00.000,19.32
+593,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2017,2017-01-01T00:00:00.000,18.87
+594,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2010,2009-12-01T00:00:00.000,23.77
+595,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2018,2018-01-01T00:00:00.000,19.67
+596,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2011,2010-12-01T00:00:00.000,23.86
+597,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2009,2008-12-01T00:00:00.000,25.26
+598,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2013,2012-12-01T00:00:00.000,20.59
+599,Nitrogen Dioxide (NO2),Mean,ppb,Sunset Park,Annual Average 2014,2013-12-01T00:00:00.000,20.23
+600,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2009,2008-12-01T00:00:00.000,23.9
+601,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2012,2011-12-01T00:00:00.000,20.67
+602,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2016,2015-12-31T00:00:00.000,18.26
+603,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2018,2018-01-01T00:00:00.000,17.56
+604,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2010,2009-12-01T00:00:00.000,22.49
+605,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2011,2010-12-01T00:00:00.000,22.9
+606,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2013,2012-12-01T00:00:00.000,20.19
+607,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2014,2013-12-01T00:00:00.000,19.75
+608,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2015,2015-01-01T00:00:00.000,19.09
+609,Nitrogen Dioxide (NO2),Mean,ppb,East New York,Annual Average 2017,2017-01-01T00:00:00.000,18.31
+610,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2011,2010-12-01T00:00:00.000,25.3
+611,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2016,2015-12-31T00:00:00.000,20.2
+612,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2017,2017-01-01T00:00:00.000,20.08
+613,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2018,2018-01-01T00:00:00.000,19.42
+614,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2009,2008-12-01T00:00:00.000,26.93
+615,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2012,2011-12-01T00:00:00.000,22.88
+616,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2010,2009-12-01T00:00:00.000,25.17
+617,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2013,2012-12-01T00:00:00.000,22.28
+618,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2014,2013-12-01T00:00:00.000,21.75
+619,Nitrogen Dioxide (NO2),Mean,ppb,Bedford Stuyvesant - Crown Heights,Annual Average 2015,2015-01-01T00:00:00.000,20.83
+620,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2017,2017-01-01T00:00:00.000,21.12
+621,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2015,2015-01-01T00:00:00.000,21.87
+622,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2010,2009-12-01T00:00:00.000,26.46
+623,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2013,2012-12-01T00:00:00.000,23.41
+624,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2016,2015-12-31T00:00:00.000,21.65
+625,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2012,2011-12-01T00:00:00.000,23.98
+626,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2014,2013-12-01T00:00:00.000,22.67
+627,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2009,2008-12-01T00:00:00.000,28.4
+628,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2011,2010-12-01T00:00:00.000,26.64
+629,Nitrogen Dioxide (NO2),Mean,ppb,Downtown - Heights - Slope,Annual Average 2018,2018-01-01T00:00:00.000,21.14
+630,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2011,2010-12-01T00:00:00.000,25.84
+631,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2013,2012-12-01T00:00:00.000,22.85
+632,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2010,2009-12-01T00:00:00.000,25.08
+633,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2012,2011-12-01T00:00:00.000,23.63
+634,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2009,2008-12-01T00:00:00.000,26.95
+635,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2014,2013-12-01T00:00:00.000,22.43
+636,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2015,2015-01-01T00:00:00.000,21.69
+637,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2016,2015-12-31T00:00:00.000,21.44
+638,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2017,2017-01-01T00:00:00.000,21.19
+639,Nitrogen Dioxide (NO2),Mean,ppb,Greenpoint,Annual Average 2018,2018-01-01T00:00:00.000,21.93
+640,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2016,2015-12-31T00:00:00.000,17.92
+641,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2017,2017-01-01T00:00:00.000,18.72
+642,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2012,2011-12-01T00:00:00.000,19.94
+643,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2013,2012-12-01T00:00:00.000,18.58
+644,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2018,2018-01-01T00:00:00.000,16.89
+645,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2009,2008-12-01T00:00:00.000,22.83
+646,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2010,2009-12-01T00:00:00.000,21.04
+647,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2011,2010-12-01T00:00:00.000,21.61
+648,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2014,2013-12-01T00:00:00.000,19.26
+649,Nitrogen Dioxide (NO2),Mean,ppb,Pelham - Throgs Neck,Annual Average 2015,2015-01-01T00:00:00.000,19.36
+650,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2014,2013-12-01T00:00:00.000,19.44
+651,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2018,2018-01-01T00:00:00.000,17.25
+652,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2016,2015-12-31T00:00:00.000,17.93
+653,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2017,2017-01-01T00:00:00.000,19.15
+654,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2009,2008-12-01T00:00:00.000,24.82
+655,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2010,2009-12-01T00:00:00.000,22.06
+656,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2015,2015-01-01T00:00:00.000,19.76
+657,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2011,2010-12-01T00:00:00.000,22.61
+658,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2012,2011-12-01T00:00:00.000,21.01
+659,Nitrogen Dioxide (NO2),Mean,ppb,Fordham - Bronx Pk,Annual Average 2013,2012-12-01T00:00:00.000,19.89
+660,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2015,2015-01-01T00:00:00.000,19.52
+661,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2018,2018-01-01T00:00:00.000,16.16
+662,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2011,2010-12-01T00:00:00.000,21.06
+663,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2017,2017-01-01T00:00:00.000,18.87
+664,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2014,2013-12-01T00:00:00.000,18.97
+665,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2016,2015-12-31T00:00:00.000,17.52
+666,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2009,2008-12-01T00:00:00.000,22.39
+667,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2010,2009-12-01T00:00:00.000,20.21
+668,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2012,2011-12-01T00:00:00.000,20.02
+669,Nitrogen Dioxide (NO2),Mean,ppb,Northeast Bronx,Annual Average 2013,2012-12-01T00:00:00.000,18.37
+670,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2014,2013-12-01T00:00:00.000,17.1
+671,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2009,2008-12-01T00:00:00.000,23.2
+672,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2011,2010-12-01T00:00:00.000,20.79
+673,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2016,2015-12-31T00:00:00.000,16.04
+674,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2018,2018-01-01T00:00:00.000,15.77
+675,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2013,2012-12-01T00:00:00.000,18.23
+676,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2015,2015-01-01T00:00:00.000,17.82
+677,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2017,2017-01-01T00:00:00.000,17.28
+678,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2010,2009-12-01T00:00:00.000,20.13
+679,Nitrogen Dioxide (NO2),Mean,ppb,Kingsbridge - Riverdale,Annual Average 2012,2011-12-01T00:00:00.000,19.05

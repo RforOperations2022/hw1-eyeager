@@ -31,7 +31,7 @@ def nyc_open_to_csv(dataset, query, filename):
     
     # Export as csv
     df.to_csv(filename)
-    print('Created ' + filename + '.csv')
+    print('Created ' + filename)
     
 if __name__ == '__main__':
     nyc_open_to_csv(dataset, query, filename)
