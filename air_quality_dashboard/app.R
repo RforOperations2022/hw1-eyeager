@@ -15,7 +15,7 @@ df <- read.csv(file = 'data/air_quality.csv')
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
+    titlePanel("NYC Air Quality Data"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
@@ -43,7 +43,14 @@ server <- function(input, output) {
         bins <- seq(min(x), max(x), length.out = input$bins + 1)
 
         # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white')
+        #hist(x, breaks = bins, col = 'darkgray', border = 'white')
+        
+        pm <- subset(df, name == 'Fine Particulate Matter (PM2.5)')
+        
+        # Line plot of particulate matter
+        ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name)) +
+            geom_line()+
+            geom_point()
     })
 }
 
