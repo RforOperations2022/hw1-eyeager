@@ -7,6 +7,7 @@
 # Set up
 library(shiny)
 library(tidyverse)
+library(gridExtra)
 
 # Load and clean air quality data
 # See air_quality_dashboard/data subfolder for more information on the data 
@@ -21,6 +22,13 @@ df$start_year <- df$start_year + df$dec_flag # years consistent now
 df$name <- as.factor(df$name) # name of air quality indicator
 df$geo_place_name <- as.factor(df$geo_place_name) # name of NYC neighborhood
 
+# Create subsets for graphing later 
+pm <- subset(df, name == 'Fine Particulate Matter (PM2.5)') # subset by indicator
+no2 <- subset(df, name == 'Nitrogen Dioxide (NO2)') 
+pm_2018 <- subset(pm, start_year == 2018) # subset by year 
+no2_2018 <- subset(no2, start_year == 2018)
+
+
 # Define UI for application that plots air quality data
 ui <- fluidPage(
 
@@ -34,18 +42,20 @@ ui <- fluidPage(
                         label = "Neighborhood:",
                         #choices = as.vector(levels(df$geo_place_name)),
                         choices = c("West Queens", "Upper West Side", "Rockaways"),
-                        selected = "Upper West Side")
+                        selected = "Upper West Side"),
+            
+           checkboxGroupInput(inputId = "plots",
+                               label = "Select plot type:",
+                               choices = c("Line", "Bar", "Heat Map"),
+                               selected = "Heat Map")
         ),
 
-        # Show a plots of the fine paticulate matter and nitrogen dioxide 
+        # Show a plots of the fine particulate matter and nitrogen dioxide 
         # indicators by neighborhood
         mainPanel(
-           plotOutput("pmLine"),
-           plotOutput("no2Line"),
-           plotOutput("pmHeat"),
-           plotOutput("no2Heat"),
-           plotOutput("pmBar"),
-           plotOutput("no2Bar")
+           plotOutput("line"),
+           plotOutput("heat"),
+           plotOutput("bar")
         )
     )
 )
@@ -62,58 +72,71 @@ server <- function(input, output) {
         scale_colour_manual(name = "geo_place_name",values = myColors)
     })
     
+    # Make a list of the plot types selected by user
+    #plotList <- reactive({input$plots})
+    
     # Draw the air quality plots
+
     output$pmLine <- renderPlot({
-        # Subset the particulate matter data
-        pm <- subset(df, name == 'Fine Particulate Matter (PM2.5)')
         
-        # Draw line plot of particulate matter
-        ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
-            geom_line()+
-            geom_point()+
-            colScale()+
-            theme(legend.position = 'none')
+        if('Line' %in% input$plots) {
+        
+            # Draw line plot of particulate matter
+            ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
+                geom_line()+
+                geom_point()+
+                colScale()+
+                theme(legend.position = 'none')
+        }
     })
     
     output$no2Line <- renderPlot({
         
-        # Subset the nitrogen dioxide data
-        no2 <- subset(df, name == 'Nitrogen Dioxide (NO2)')
+        if('Line' %in% input$plots) {
         
-        # Draw line plot of nitrogen dioxide
-        ggplot(data=no2, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
-            geom_line()+
-            geom_point()+
-            colScale()+
-            theme(legend.position = 'none')
+            # Draw line plot of nitrogen dioxide
+            ggplot(data=no2, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
+                geom_line()+
+                geom_point()+
+                colScale()+
+                theme(legend.position = 'none')
+        }
     })
     
     output$pmHeat <- renderPlot({
-        # Draw heat map of particulate matter
-        ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+        
+        if('Heat Map' %in% input$plots) {
+            # Draw heat map of particulate matter
+            ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+        }
     })
     
     output$no2Heat <- renderPlot({
-        # Draw heat map of particulate matter
-        ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+        
+        if('Heat Map' %in% input$plots) {
+            # Draw heat map of particulate matter
+            ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+        }
     })
     
     output$pmBar <- renderPlot({
-        # Subset to just 2018 data
-        pm_2018 <- subset(pm, start_year == 2018)
         
-        #Draw bar plot
-        ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
-            coord_flip()
+        if('Bar' %in% input$plots) {
+        
+            #Draw bar plot
+            ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+                coord_flip()
+        }
     })
     
     output$no2Bar <- renderPlot({
-        # Subset to just 2018 data
-        no2_2018 <- subset(no2, start_year == 2018)
         
-        #Draw bar plot
-        ggplot(no2_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
-            coord_flip()
+        if('Bar' %in% input$plots) {
+            
+            #Draw bar plot
+            ggplot(no2_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+                coord_flip()
+        }
     })
     
 }
