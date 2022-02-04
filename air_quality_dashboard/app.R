@@ -28,7 +28,6 @@ no2 <- subset(df, name == 'Nitrogen Dioxide (NO2)')
 pm_2018 <- subset(pm, start_year == 2018) # subset by year 
 no2_2018 <- subset(no2, start_year == 2018)
 
-
 # Define UI for application that plots air quality data
 ui <- fluidPage(
 
@@ -44,12 +43,12 @@ ui <- fluidPage(
                         choices = c("West Queens", "Upper West Side", "Rockaways"),
                         selected = "Upper West Side"),
             
-           checkboxGroupInput(inputId = "plots",
+           selectInput(inputId = "plots",
                                label = "Select plot type:",
                                choices = c("Line", "Bar", "Heat Map"),
                                selected = "Heat Map"),
            
-           # Show data table ---------------------------------------------
+           # Show data table 
            checkboxInput(inputId = "show_data",
                          label = "Show data table:",
                          value = TRUE),
@@ -61,9 +60,7 @@ ui <- fluidPage(
         # Show a plots of the fine particulate matter and nitrogen dioxide 
         # indicators by neighborhood
         mainPanel(
-           plotOutput("line"),
-           plotOutput("heat"),
-           plotOutput("bar"),
+           plotOutput("plots"),
            
            # Show data table ---------------------------------------------
            DT::dataTableOutput(outputId = "air_quality_table")
@@ -88,9 +85,9 @@ server <- function(input, output) {
     
     # Draw the air quality plots
 
-    output$line <- renderPlot({
+    output$plots <- renderPlot({
         
-        if('Line' %in% input$plots) {
+        if(input$plots == 'Line') {
         
             # Draw line plot of particulate matter
             line_pm <- ggplot(data=pm, aes(x=start_date, y=data_value, group=geo_place_name, color=geo_place_name)) +
@@ -108,11 +105,8 @@ server <- function(input, output) {
             
             grid.arrange(line_pm, line_no2, ncol=2)
         }
-    })
-    
-    output$heat <- renderPlot({
         
-        if('Heat Map' %in% input$plots) {
+        else if (input$plots=='Heat Map') {
             # Draw heat map of particulate matter
             heat_pm <- ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
             
@@ -121,11 +115,8 @@ server <- function(input, output) {
             
             grid.arrange(heat_pm, heat_no2, ncol=2)
         }
-    })
-    
-    output$bar <- renderPlot({
         
-        if('Bar' %in% input$plots) {
+        else if (input$plots == 'Bar') {
             #Draw bar plot for particulate matter in 2018
             bar_pm <- ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
                 coord_flip()
@@ -137,6 +128,34 @@ server <- function(input, output) {
             grid.arrange(bar_pm, bar_no2, ncol=2)
         }
     })
+    
+    # output$heat <- renderPlot({
+    #     
+    #     if('Heat Map' %in% input$plots) {
+    #         # Draw heat map of particulate matter
+    #         heat_pm <- ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+    #         
+    #         # Draw heat map of nitrogen dioxide
+    #         heat_no2 <- ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+    #         
+    #         grid.arrange(heat_pm, heat_no2, ncol=2)
+    #     }
+    # })
+    
+    # output$bar <- renderPlot({
+    #     
+    #     if('Bar' %in% input$plots) {
+    #         #Draw bar plot for particulate matter in 2018
+    #         bar_pm <- ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+    #             coord_flip()
+    #         
+    #         #Draw bar plot for nitrogen dioxide in 2018
+    #         bar_no2 <- ggplot(no2_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+    #             coord_flip()
+    #         
+    #         grid.arrange(bar_pm, bar_no2, ncol=2)
+    #     }
+    # })
     
     # Print data table if checked -------------------------------------
     output$air_quality_table <- DT::renderDataTable(
