@@ -43,7 +43,9 @@ ui <- fluidPage(
            plotOutput("pmLine"),
            plotOutput("no2Line"),
            plotOutput("pmHeat"),
-           plotOutput("no2Heat")
+           plotOutput("no2Heat"),
+           plotOutput("pmBar"),
+           plotOutput("no2Bar")
         )
     )
 )
@@ -94,6 +96,24 @@ server <- function(input, output) {
     output$no2Heat <- renderPlot({
         # Draw heat map of particulate matter
         ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+    })
+    
+    output$pmBar <- renderPlot({
+        # Subset to just 2018 data
+        pm_2018 <- subset(pm, start_year == 2018)
+        
+        #Draw bar plot
+        ggplot(pm_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+            coord_flip()
+    })
+    
+    output$no2Bar <- renderPlot({
+        # Subset to just 2018 data
+        no2_2018 <- subset(no2, start_year == 2018)
+        
+        #Draw bar plot
+        ggplot(no2_2018, aes(x=geo_place_name, y=data_value)) + geom_bar(stat='identity') +
+            coord_flip()
     })
     
 }
