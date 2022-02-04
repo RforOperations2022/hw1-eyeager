@@ -13,7 +13,11 @@ library(tidyverse)
 # source 
 df <- read.csv(file = 'data/air_quality.csv')
 df$X <- as.character(df$X) # row index
-df$start_date <- as.Date(df$start_date) # annual data 
+df$start_date <- as.Date(df$start_date) # annual data, inconsistently begins in dec or jan
+df$start_month <- format(df$start_date, "%m")
+df$start_year <- as.numeric(format(df$start_date, "%Y"))
+df$dec_flag <- as.numeric(df$start_month==12)
+df$start_year <- df$start_year + df$dec_flag # years consistent now
 df$name <- as.factor(df$name) # name of air quality indicator
 df$geo_place_name <- as.factor(df$geo_place_name) # name of NYC neighborhood
 
@@ -36,8 +40,10 @@ ui <- fluidPage(
         # Show a plots of the fine paticulate matter and nitrogen dioxide 
         # indicators by neighborhood
         mainPanel(
-           plotOutput("pmPlot"),
-           plotOutput("no2Plot")
+           plotOutput("pmLine"),
+           plotOutput("no2Line"),
+           plotOutput("pmHeat"),
+           plotOutput("no2Heat")
         )
     )
 )
@@ -55,7 +61,7 @@ server <- function(input, output) {
     })
     
     # Draw the air quality plots
-    output$pmPlot <- renderPlot({
+    output$pmLine <- renderPlot({
         # Subset the particulate matter data
         pm <- subset(df, name == 'Fine Particulate Matter (PM2.5)')
         
@@ -67,7 +73,7 @@ server <- function(input, output) {
             theme(legend.position = 'none')
     })
     
-    output$no2Plot <- renderPlot({
+    output$no2Line <- renderPlot({
         
         # Subset the nitrogen dioxide data
         no2 <- subset(df, name == 'Nitrogen Dioxide (NO2)')
@@ -79,6 +85,17 @@ server <- function(input, output) {
             colScale()+
             theme(legend.position = 'none')
     })
+    
+    output$pmHeat <- renderPlot({
+        # Draw heat map of particulate matter
+        ggplot(pm, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+    })
+    
+    output$no2Heat <- renderPlot({
+        # Draw heat map of particulate matter
+        ggplot(no2, aes(x=start_year, y=geo_place_name, fill=data_value)) + geom_tile()
+    })
+    
 }
 
 # Run the application 
