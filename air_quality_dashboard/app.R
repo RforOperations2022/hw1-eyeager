@@ -22,7 +22,7 @@ df$start_year <- df$start_year + df$dec_flag # years consistent now
 df$name <- as.factor(df$name) # name of air quality indicator
 df$geo_place_name <- as.factor(df$geo_place_name) # name of NYC neighborhood
 
-# Create subsets for graphing later 
+# Create subsets for graphing bar plots later 
 pm <- subset(df, name == 'Fine Particulate Matter (PM2.5)') # subset by indicator
 no2 <- subset(df, name == 'Nitrogen Dioxide (NO2)') 
 pm_2018 <- subset(pm, start_year == 2018) # subset by year 
@@ -32,7 +32,7 @@ no2_2018 <- subset(no2, start_year == 2018)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("NYC Air Quality Data by Neighborhood"),
+    titlePanel("Air Quality by New York City Neighborhood"),
 
     # Sidebar with inputs for neighborhood and plot titles
     sidebarLayout(
@@ -40,7 +40,14 @@ ui <- fluidPage(
             selectInput(inputId = "geo",
                         label = "Neighborhood:",
                         #choices = as.vector(levels(df$geo_place_name)),
-                        choices = c("West Queens", "Upper West Side", "Rockaways"),
+                        choices = c("Bedford Stuyvesant - Crown Heights",
+                                    "Central Harlem - Morningside Heights", "Chelsea-Village",
+                                    "Coney Island - Sheepshead Bay", "Downtown - Heights - Slope",
+                                    "East Harlem", "Greenpoint", "Northeast Bronx", 
+                                    "South Bronx", "Southeast Queens", "Southwest Queens",
+                                    "Union Square-Lower Manhattan", "Upper East Side-Gramercy",
+                                    "Upper West Side", "Washington Heights", 
+                                    "West Queens", "Williamsburg - Bushwick"),
                         selected = "Upper West Side"),
             
            selectInput(inputId = "plots",
