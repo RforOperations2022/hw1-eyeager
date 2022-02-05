@@ -1,0 +1,13 @@
+name: air_quality_dashboard
+title: air_quality_dashboard
+username:
+account: emmayeager
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5585259
+bundleId: 5544838
+url: https://emmayeager.shinyapps.io/air_quality_dashboard/
+when: 1644021137.4428
+lastSyncTime: 1644021137.4428
+asMultiple: FALSE
+asStatic: FALSE
